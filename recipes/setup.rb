@@ -4,4 +4,3 @@ end
 file '/etc/motd' do
   content "Propiedad de:\nDavid Castro\n"
 end
-
