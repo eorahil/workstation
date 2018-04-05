@@ -20,6 +20,6 @@ describe package('tree') do
 end
 
 describe file('/etc/motd') do
-  its('content') { should match(/Property of/) }
+  its('content') { should match(/Propiedad de/) }
   it { should be_owned_by 'root' }
 end
